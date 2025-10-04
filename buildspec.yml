@@ -12,7 +12,7 @@ phases:
     commands:
       - echo Building application...
       - npm run build
-  post-build:
+  post_build:
     commands:
       - eccho Build completed. Copying files to S3...
       - aws cp dist s3://ederts-frontend/ --recursive
@@ -21,7 +21,7 @@ artifacts:
   files:
     - '**/*'
   base-directory: dist
-  
+
 cache:
   paths:
     - 'node_modules/**/*'
