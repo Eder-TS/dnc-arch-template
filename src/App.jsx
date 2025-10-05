@@ -10,7 +10,7 @@ import LoadingOverlay from './components/LoadingOverlay/LoadingOverlay'
 import Projects from './pages/Projects'
 
 // CONTEXTS
-import { AppContext } from './contexts/AppContext'
+import { AppContext sr gfj nghjmfghj,f} from './contexts/AppContext'
 
 // UTILS
 import ScrollToTop from './utils/ScrollToTop'
